@@ -1,36 +1,49 @@
-Entrar a: https://sensational-beignet-84602b.netlify.app/
+Magic Memory 🃏
+Un juego de memoria hecho con React que desafía tu habilidad para recordar y emparejar cartas.
 
-O si tienes el ZIP
+🚀 Instalación
+1. Requisitos previos
+Node.js (versión LTS recomendada)
 
-1️⃣ Instalar Node.js
-React se ejecuta sobre Node.js.
+npm (se instala junto con Node.js)
 
-Descárgalo en https://nodejs.org/ (elige la versión LTS recomendada).
-
-Luego en la terminal verifica que está instalado:
-
+Verifica la instalación con:
 
 node -v
 npm -v
+2. Clonar el repositorio
 
-
-3️⃣ Instalar dependencias
-
-npm install
-
-Esto descargará todo lo que está listado en package.json dentro de node_modules/.
-
-4️⃣ Ejecutar el servidor de desarrollo
-Entra en la carpeta del proyecto y corre:
-
-
-npm start  
-
-TODO:
-
+git clone https://github.com/TuUsuario/magic-memory.git
 cd magic-memory
-npm install
-npm start
-y tu juego se abrirá en el navegador.
 
-Unicamente en caso de tener el archivo ZIP completo.
+3. Instalar dependencias
+
+npm install
+
+▶️ Uso
+Modo desarrollo
+Inicia el servidor local:
+
+
+npm start
+Luego abre en tu navegador:
+
+
+http://localhost:3000
+Modo producción
+Genera la versión optimizada:
+
+
+npm run build
+Esto creará la carpeta build/ lista para desplegar en Netlify, Vercel, GitHub Pages, etc.
+
+
+👥 Créditos
+Desarrollado por: [Alan Arredondo]
+Inspirado en el clásico juego de memoria.
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT.
+Puedes usarlo, modificarlo y distribuirlo libremente, siempre que incluyas este aviso de licencia.
+
+¡Diviértete jugando y mejorando tu memoria! 🧠
